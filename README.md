@@ -16,7 +16,14 @@ A powerful, AI-driven Telegram bot built on **n8n** that allows users to search 
     *   **Interactive Buttons**: Includes "Book this flight" and "More details" inline buttons.
 *   **Intelligent Validation**: Automatically detects missing information (like travel dates or destination) and asks the user for clarification before searching.
 
-## 🛠 Tech Stack
+## � Screenshots
+
+### Telegram Bot in Action
+| Search Example 1 | Search Example 2 |
+| :---: | :---: |
+| ![Telegram Search 1](assets/telegram_search1.png) | ![Telegram Search 2](assets/telegram_search2.png) |
+
+## �🛠 Tech Stack
 
 *   **Automation Platform**: [n8n](https://n8n.io/)
 *   **Messaging**: [Telegram Bot API](https://core.telegram.org/bots)
@@ -27,6 +34,8 @@ A powerful, AI-driven Telegram bot built on **n8n** that allows users to search 
 *   **Logic**: JavaScript (n8n Code Nodes)
 
 ## 🔄 Workflow Architecture
+
+![Workflow Diagram](assets/workflow.png)
 
 1.  **Trigger**: User sends a message to the Telegram Bot.
 2.  **Filtration (Euron API)**: The message is sent to Euron's Chat Completion endpoint to extract `ORIGIN`, `DESTINATION`, `DATE`, and `PASSENGERS`.
@@ -46,3 +55,4 @@ To run this workflow, you need to configure the following credentials in n8n:
 
 ---
 *Created with ❤️ using n8n and Generative AI.*
+
