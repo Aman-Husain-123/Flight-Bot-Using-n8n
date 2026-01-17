@@ -16,14 +16,14 @@ A powerful, AI-driven Telegram bot built on **n8n** that allows users to search 
     *   **Interactive Buttons**: Includes "Book this flight" and "More details" inline buttons.
 *   **Intelligent Validation**: Automatically detects missing information (like travel dates or destination) and asks the user for clarification before searching.
 
-## � Screenshots
+## 📸 Screenshots
 
 ### Telegram Bot in Action
 | Search Example 1 | Search Example 2 |
 | :---: | :---: |
 | ![Telegram Search 1](assets/telegram_search1.png) | ![Telegram Search 2](assets/telegram_search2.png) |
 
-## �🛠 Tech Stack
+## 🛠 Tech Stack
 
 *   **Automation Platform**: [n8n](https://n8n.io/)
 *   **Messaging**: [Telegram Bot API](https://core.telegram.org/bots)
